@@ -15,7 +15,7 @@ so that my account balance is accurate when I am traveling and able to see all t
   * [Questions](#questions)
   
   ## Usage
-  In order to run this application, you must fork my repo to your local machine and and run npm start to run the application, then on then open a browser tab and in the url we will be using "http://localhost:3001/".
+  In order to run this application, you must fork my repo to your local machine and and run npm start to run the application, then open a browser tab and in the url we will be using "http://localhost:3001/" to see the budget tracker work.
   
   
   # License
