@@ -29,7 +29,7 @@ request.onerror = function (event) {
   console.log(event.target.errorCode);
 };
 
-// This function will be executed if we attempt to submit a new pizza and there's no internet connection
+// This function will be executed if we attempt to submit a new transaction and there's no internet connection
 function saveRecord(record) {
   // open a new transaction with the database with read and write permissions
   const transaction = db.transaction(["transactions"], "readwrite");
@@ -70,7 +70,7 @@ function uploadBudget() {
           }
           // open one more transaction
           const transaction = db.transaction(["transactions"], "readwrite");
-          // access the new_pizza object store
+          // access the budget_tracker object store
           const budgetObjectStore = transaction.objectStore("transactions");
           // clear all items in your store
           budgetObjectStore.clear();
